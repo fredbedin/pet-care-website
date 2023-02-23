@@ -1,0 +1,131 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+header {
+    margin: 44px 0 15px 76px;
+}
+
+.header-link {
+    width: 79px;
+    height: 29px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #989D9C;
+    margin:23px;
+    cursor:pointer;
+}
+
+.header-button {
+    width: 130px;
+    height: 41px;
+    background: #665AE1;
+    border-radius: 20.5px;
+    color: white;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    border:none;
+    cursor: pointer;
+}
+   
+.img-main {
+    margin-left: 125px;
+    height: 500px;
+    display:inline-block
+}
+
+section {
+    display:inline-block;
+    margin-top: 217px;
+    margin-left: 86px;
+}
+
+h1 { 
+    font-weight: 900;
+    font-size: 100px;
+    line-height: 122px;
+    color: #515151;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 58px;
+    line-height: 71px;
+    color: #515151;
+}
+
+p {
+    width: 515px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #848484;
+    margin-top: 32px;
+    margin-bottom: 65px;
+
+}
+
+.section-button {
+    width: 239px;
+    height: 64px;
+    border-radius: 30px;
+    border: none;
+    background: #ADFF00;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    color: #000000;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    cursor: pointer;
+}
+
+@media screen and (max-width:900px) {
+    
+    header {
+        display: none;
+    }
+
+    .img-main {
+        margin: 149px auto 24px auto;
+        width: 354px;
+        height: 317px;
+        display: block;
+    }
+
+    section {
+        display:block;
+        margin: 0;
+    }
+
+    p {
+        display: none;
+    }
+
+    h1 {
+        font-weight: 900;
+        font-size: 50px;
+        line-height: 61px;
+        text-align: center;
+        margin: 24px auto 7px auto;
+    }
+
+    h2 {
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 37px;
+        text-align: center;
+    }
+
+    button {
+        display:block;
+        margin: 17px auto 133px auto;
+    }
+
+
+}
